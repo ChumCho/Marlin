@@ -614,7 +614,7 @@
 //16 Tooth Pulley
 //2mm Pitch Belt (GT2)
 //Formula = Motor Spec * Microstep / Pulley Teeth / Belt Pitch
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 200, 200, 4000, 500 }
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 200, 200, 4000, 837 }
 
 /**
  * Default Max Feed Rate (mm/s)
