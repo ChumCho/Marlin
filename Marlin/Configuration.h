@@ -608,7 +608,13 @@
  * Override with M92
  *                                      X, Y, Z, E0 [, E1[, E2[, E3[, E4]]]]
  */
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 4000, 500 }
+
+//Microstep = 16
+//Motor Spec 400 Steps/Revolution (0.9 Degree Angle)
+//16 Tooth Pulley
+//2mm Pitch Belt (GT2)
+//Formula = Motor Spec * Microstep / Pulley Teeth / Belt Pitch
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 200, 200, 4000, 500 }
 
 /**
  * Default Max Feed Rate (mm/s)
